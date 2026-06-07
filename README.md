@@ -1,6 +1,7 @@
 # Olá, eu sou Arthur Ribeiro
 
-🎓 Estudante de **Bacharelado em Tecnologia da Informação** na **Universidade Federal do Rio Grande do Norte — UFRN**
+🎓 Estudante de **Bacharelado em Tecnologia da Informação** na  
+**Universidade Federal do Rio Grande do Norte — UFRN**
 
 💻 Tenho foco principal em **Desenvolvimento Web**, especialmente no backend, criando APIs, sistemas escaláveis e soluções bem estruturadas.
 
@@ -14,6 +15,7 @@ Atualmente, venho aprofundando meus estudos em **Python** e **Django**, além de
 - 🌱 Estudando **React** para complementar minha stack web
 - 🧠 Interessado também por **Inteligência Artificial**
 - 🛠️ Construindo projetos para colocar o conhecimento em prática
+- ⚙️ Explorando boas práticas em APIs, performance, automação e deploy
 
 ---
 
@@ -33,6 +35,7 @@ Atualmente, venho aprofundando meus estudos em **Python** e **Django**, além de
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -49,6 +52,7 @@ Atualmente, venho aprofundando meus estudos em **Python** e **Django**, além de
 - Integração de serviços com **Docker, Redis e Celery**
 - Estratégias de **Caching**
 - Controle de requisições com **Rate Limiting**
+- Pipeline de **CI/CD** para automação de deploy
 - Desenvolvimento frontend com **React**
 - Conceitos e aplicações de **Inteligência Artificial**
 
@@ -66,6 +70,7 @@ Também me interesso por áreas como:
 - Automação de processos
 - Caching e otimização de performance
 - Rate Limiting e segurança em APIs
+- CI/CD e automação de deploy
 - Inteligência Artificial
 - Sistemas escaláveis
 
@@ -75,30 +80,29 @@ Também me interesso por áreas como:
 
 ### 🎬 CineReserve API
 
-Backend RESTful para gerenciamento de operações de cinema, permitindo que usuários visualizem filmes, consultem sessões, verifiquem assentos disponíveis, façam reservas e realizem compras de ingressos.
+API RESTful desenvolvida para gerenciar operações de cinema, incluindo filmes, sessões, assentos, reservas, compras de ingressos e pagamentos.
 
-O projeto foi desenvolvido com foco em **integridade dos dados**, **controle de concorrência**, **performance** e **boas práticas no desenvolvimento de APIs**.
+O projeto foi construído com foco em **backend**, **integridade dos dados**, **controle de concorrência**, **performance**, **autenticação segura** e integração com serviços externos.
 
-**Tecnologias utilizadas:**  
-`Python` `Django` `Django Rest Framework` `PostgreSQL` `Redis` `Celery` `Docker` `JWT` `Caching` `Rate Limiting` `Flutterwave` `Swagger` `ReDoc`
+**Stack:**  
+`Python` `Django` `Django Rest Framework` `PostgreSQL` `Redis` `Celery` `Docker` `JWT` `Flutterwave` `Swagger` `ReDoc` `Postman` `CI/CD`
 
-**Principais funcionalidades:**
+**Destaques do projeto:**
 
-- Autenticação de usuários com JWT
+- API REST para filmes, sessões, reservas, compras, tickets e bookings
+- Autenticação com JWT
 - Registro, login, logout, refresh e verificação de tokens
-- Listagem e gerenciamento de filmes
-- Criação e consulta de sessões de cinema
-- Visualização de assentos disponíveis por sessão
 - Reserva temporária de assentos
 - Compra de ingressos com integração de pagamento via Flutterwave
 - Webhook para confirmação de pagamentos
 - Envio de e-mails com tarefas assíncronas usando Celery
 - Uso de Redis para caching, rate limiting e broker do Celery
+- Pipeline de CD para automação do deploy
 - Documentação da API com Swagger, ReDoc e Postman
 - Ambiente containerizado com Docker e Docker Compose
 - Testes automatizados com coverage
 
-🔗 **Repositório:** [CineReserve API](https://github.com/ribeiro-7/CineReserve_API)
+🔗 **Repositório:** [CineReserve API](https://github.com/ribeiro-7/CineReserve_API)  
 📄 **Documentação:** [Postman Docs](https://documenter.getpostman.com/view/40491697/2sBXqRibqf)
 
 ---
@@ -107,5 +111,5 @@ O projeto foi desenvolvido com foco em **integridade dos dados**, **controle de 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-ribeiro-858282282/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ribeiro-7)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_ribeiro.a/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](COLOQUE_SEU_INSTAGRAM_AQUI)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arthurr366@gmail.com)
