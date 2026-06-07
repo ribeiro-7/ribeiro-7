@@ -1,7 +1,6 @@
 # Olá, eu sou Arthur Ribeiro
 
-🎓 Estudante de **Bacharelado em Tecnologia da Informação** na  
-**Universidade Federal do Rio Grande do Norte — UFRN**
+🎓 Estudante de **Bacharelado em Tecnologia da Informação** na **Universidade Federal do Rio Grande do Norte — UFRN**
 
 💻 Tenho foco principal em **Desenvolvimento Web**, especialmente no backend, criando APIs, sistemas escaláveis e soluções bem estruturadas.
 
@@ -103,6 +102,7 @@ O projeto foi construído com foco em **backend**, **integridade dos dados**, **
 - Testes automatizados com coverage
 
 🔗 **Repositório:** [CineReserve API](https://github.com/ribeiro-7/CineReserve_API)  
+
 📄 **Documentação:** [Postman Docs](https://documenter.getpostman.com/view/40491697/2sBXqRibqf)
 
 ---
