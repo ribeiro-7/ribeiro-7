@@ -71,11 +71,35 @@ Também me interesso por áreas como:
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Main Projects
 
-![Ribeiro's GitHub stats](https://github-readme-stats.vercel.app/api?username=ribeiro-7&show_icons=true&theme=tokyonight)
+### 🎬 CineReserve API
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ribeiro-7&layout=compact&theme=tokyonight)
+Backend RESTful para gerenciamento de operações de cinema, permitindo que usuários visualizem filmes, consultem sessões, verifiquem assentos disponíveis, façam reservas e realizem compras de ingressos.
+
+O projeto foi desenvolvido com foco em **integridade dos dados**, **controle de concorrência**, **performance** e **boas práticas no desenvolvimento de APIs**.
+
+**Tecnologias utilizadas:**  
+`Python` `Django` `Django Rest Framework` `PostgreSQL` `Redis` `Celery` `Docker` `JWT` `Caching` `Rate Limiting` `Flutterwave` `Swagger` `ReDoc`
+
+**Principais funcionalidades:**
+
+- Autenticação de usuários com JWT
+- Registro, login, logout, refresh e verificação de tokens
+- Listagem e gerenciamento de filmes
+- Criação e consulta de sessões de cinema
+- Visualização de assentos disponíveis por sessão
+- Reserva temporária de assentos
+- Compra de ingressos com integração de pagamento via Flutterwave
+- Webhook para confirmação de pagamentos
+- Envio de e-mails com tarefas assíncronas usando Celery
+- Uso de Redis para caching, rate limiting e broker do Celery
+- Documentação da API com Swagger, ReDoc e Postman
+- Ambiente containerizado com Docker e Docker Compose
+- Testes automatizados com coverage
+
+🔗 **Repositório:** [CineReserve API](https://github.com/ribeiro-7/CineReserve_API)
+📄 **Documentação:** [Postman Docs](https://documenter.getpostman.com/view/40491697/2sBXqRibqf)
 
 ---
 
