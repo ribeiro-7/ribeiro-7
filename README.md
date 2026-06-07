@@ -14,7 +14,7 @@ Atualmente, venho aprofundando meus estudos em **Python** e **Django**, além de
 - 🌱 Estudando **React** para complementar minha stack web
 - 🧠 Interessado também por **Inteligência Artificial**
 - 🛠️ Construindo projetos para colocar o conhecimento em prática
-- ⚙️ Explorando boas práticas em APIs, performance, automação e deploy
+- ⚙️ Explorando boas práticas em APIs, performance, automação e integração contínua
 
 ---
 
@@ -34,7 +34,8 @@ Atualmente, venho aprofundando meus estudos em **Python** e **Django**, além de
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![CI](https://img.shields.io/badge/CI-0A0A0A?style=for-the-badge&logo=github&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -51,7 +52,7 @@ Atualmente, venho aprofundando meus estudos em **Python** e **Django**, além de
 - Integração de serviços com **Docker, Redis e Celery**
 - Estratégias de **Caching**
 - Controle de requisições com **Rate Limiting**
-- Pipeline de **CI/CD** para automação de deploy
+- Pipelines de **CI** com **GitHub Actions**
 - Desenvolvimento frontend com **React**
 - Conceitos e aplicações de **Inteligência Artificial**
 
@@ -69,7 +70,7 @@ Também me interesso por áreas como:
 - Automação de processos
 - Caching e otimização de performance
 - Rate Limiting e segurança em APIs
-- CI/CD e automação de deploy
+- Integração contínua com GitHub Actions
 - Inteligência Artificial
 - Sistemas escaláveis
 
@@ -84,7 +85,7 @@ API RESTful desenvolvida para gerenciar operações de cinema, incluindo filmes,
 O projeto foi construído com foco em **backend**, **integridade dos dados**, **controle de concorrência**, **performance**, **autenticação segura** e integração com serviços externos.
 
 **Stack:**  
-`Python` `Django` `Django Rest Framework` `PostgreSQL` `Redis` `Celery` `Docker` `JWT` `Flutterwave` `Swagger` `ReDoc` `Postman` `CI/CD`
+`Python` `Django` `Django Rest Framework` `PostgreSQL` `Redis` `Celery` `Docker` `Docker Compose` `JWT` `Flutterwave` `Swagger` `ReDoc` `Postman` `GitHub Actions` `CI`
 
 **Destaques do projeto:**
 
@@ -96,10 +97,13 @@ O projeto foi construído com foco em **backend**, **integridade dos dados**, **
 - Webhook para confirmação de pagamentos
 - Envio de e-mails com tarefas assíncronas usando Celery
 - Uso de Redis para caching, rate limiting e broker do Celery
-- Pipeline de CD para automação do deploy
-- Documentação da API com Swagger, ReDoc e Postman
 - Ambiente containerizado com Docker e Docker Compose
-- Testes automatizados com coverage
+- Pipeline de CI com GitHub Actions
+- Execução automática da pipeline em push e pull request para a branch `main`
+- Build dos containers no processo de integração contínua
+- Execução de migrations e testes automatizados na pipeline
+- Validação de coverage mínimo de 85%
+- Documentação da API com Swagger, ReDoc e Postman
 
 🔗 **Repositório:** [CineReserve API](https://github.com/ribeiro-7/CineReserve_API)  
 
@@ -111,5 +115,5 @@ O projeto foi construído com foco em **backend**, **integridade dos dados**, **
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-ribeiro-858282282/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ribeiro-7)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](COLOQUE_SEU_INSTAGRAM_AQUI)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_ribeiro.a/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arthurr366@gmail.com)
